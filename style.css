@@ -1,0 +1,61 @@
+   /* Custom styles to complement Bootstrap */
+   body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #343a40 !important;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.menu-item {
+    margin-bottom: 30px;
+}
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}

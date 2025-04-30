@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cozy Diner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">The Cozy Diner</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero jumbotron-fluid d-flex align-items-center justify-content-center">
+        <div class="container text-center">
+            <h1 class="display-4">Taste the Authentic Flavors</h1>
+            <p class="lead">Experience culinary delight in a cozy atmosphere.</p>
+            <a href="#menu" class="btn btn-primary btn-lg">View Our Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Delicious Menu</h2>
+            <div class="row">
+                <div class="col-md-4 menu-item">
+                    <img src="/images/OIP.jpg" alt="Burger" class="img-fluid" height="200px" weight="250px">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef patty with fresh toppings on a toasted bun.</p>
+                    <p class="font-weight-bold">KSH 900</p>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <img src="images/OSK.jpg" alt="Pizza" class="img-fluid" height="200px" weight="250px" >
+                    <h3>Pepperoni Pizza</h3>
+                    <p>Classic pizza with rich tomato sauce, mozzarella cheese, and pepperoni.</p>
+                    <p class="font-weight-bold">KSH 1250</p>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <img src="/images/th.jpg" alt="Salad" class="img-fluid" height="200px" weight="250px">
+                    <h3>Fresh Garden Salad</h3>
+                    <p>A refreshing mix of seasonal greens with a light vinaigrette.</p>
+                    <p class="font-weight-bold">KSH 2000</p>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <img src="/images/th (1).jpg" alt="Pasta" class="img-fluid" height="200px" weight="250px">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Traditional Italian pasta dish with eggs, cheese, pancetta, and black pepper.</p>
+                    <p class="font-weight-bold">KSH 1125</p>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <img src="/images/steak.jpg" alt="Steak" class="img-fluid" >
+                    <h3>Grilled Steak</h3>
+                    <p>Perfectly grilled steak served with your choice of sides.</p>
+                    <p class="font-weight-bold">KSH 1999</p>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <img src="/images/choco.jpg" alt="Dessert" class="img-fluid">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich and decadent chocolate cake with a smooth frosting.</p>
+                    <p class="font-weight-bold">KSH 650</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Our Restaurant</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/images/download.jpg" alt="Restaurant Interior" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">Welcome to The Cozy Diner, a place where delicious food meets a warm and inviting atmosphere. Our passion for culinary excellence and commitment to using fresh, locally sourced ingredients shines through in every dish we serve. Whether you're joining us for a casual meal, a special occasion, or a quick bite, our friendly staff is dedicated to providing you with an exceptional dining experience.</p>
+                    <p>Founded in [Year], The Cozy Diner has become a local favorite, known for its comforting ambiance and mouth-watering menu. Our chefs bring years of experience and creativity to the kitchen, crafting dishes that cater to a variety of tastes. We believe in creating a community around good food and look forward to welcoming you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 The Cozy Diner. All Rights Reserved.</p>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
